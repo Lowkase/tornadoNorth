@@ -6,6 +6,14 @@
     "license": "ISC",
     "main": "index.html",
     "dependencies": {
+        "body-parser": "^1.15.2",
+        "express": "*"
+    },
+    "engines": {
+        "node": "*",
+        "npm": "*"
+    },    
+    "dependencies": {
         "browser-sync": "*",
         "fancy-log": "*",
         "gulp": "*",
