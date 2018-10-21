@@ -1,0 +1,14 @@
+// --------------------------------------------------------------------------------
+// MIXINS - TRANSFORM
+// --------------------------------------------------------------------------------
+@mixin transform($transforms) {
+	-moz-transform: $transforms;
+	-o-transform: $transforms;
+	-ms-transform: $transforms;
+	-webkit-transform: $transforms;
+    transform: $transforms;
+}
+
+// EXAMPLE
+// =======
+// @include transform( rotate(90deg) );

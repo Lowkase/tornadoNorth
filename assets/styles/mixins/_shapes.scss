@@ -1,0 +1,89 @@
+// --------------------------------------------------------------------------------
+// MIXINS - SHAPES
+// --------------------------------------------------------------------------------
+
+// TRIANGLE
+@mixin triangle($direction, $size, $color) {
+	height: 0;
+	width: 0;
+
+	@if $direction == 'up' { 
+		border-right: $size solid transparent;
+		border-bottom: $size * 1.732 solid $color; 
+		border-left: $size solid transparent; 
+	} @else if $direction == 'down' {
+		border-top: $size * 1.732 solid $color; 
+		border-right: $size solid transparent; 
+		border-left: $size solid transparent; 
+	} @else if $direction == 'left' {
+		border-top: $size solid transparent; 
+		border-right: $size * 1.732 solid $color; 
+		border-bottom: $size solid transparent; 
+	} @else if $direction == 'right' {
+		border-top: $size solid transparent; 
+		border-bottom: $size solid transparent; 
+		border-left: $size * 1.732 solid $color; 
+	}
+}
+// Examples
+//@include triangle(up, 60px, red);
+//@include triangle(down, 60px, red);
+//@include triangle(left, 60px, red);
+//@include triangle(right, 60px, red);
+
+
+// ROUNDED DIAMOND
+@mixin rounded-diamond($side, $size, $rotate, $color, $border-size, $border-color, $border-rounding) {
+	background: $color;
+	border-radius: $border-rounding;
+	height: $size;
+
+    transform: rotate($rotate);  /* Firefox 16+, IE 10+, Opera */
+	-webkit-transform: rotate($rotate);  /* Chrome, Opera 15+, Safari 3.1+  */
+    -ms-transform: rotate($rotate);  /* IE 9 */
+
+	width: $size;
+
+	@if $side == "top" {
+		border-top: $border-size solid $border-color;
+		border-left: $border-size solid $border-color;
+    } @else if $side == "right" {
+		border-top: $border-size solid $border-color;
+		border-right: $border-size solid $border-color;
+    } @else if $side == "bottom" {
+		border-bottom: $border-size solid $border-color;
+		border-right: $border-size solid $border-color;
+    } @else if $side == "left" {
+		border-bottom: $border-size solid $border-color;
+		border-left: $border-size solid $border-color;
+    }
+}
+// Example
+//@include rounded-diamond(left, 10px, 45deg, white, 1px, black, 3px)
+
+
+// RECTANGLE
+@mixin rectangle($width, $height, $color) {
+	background: $color;
+	height: $height;
+	width: $width;
+}
+// Example
+//@include rectangle(100px, 70px red);
+
+
+// SQUARE
+@mixin square($size, $color) {
+	@include rectangle($size, $size, $color);
+}
+// Example
+// @include rectangle(10px 10px, red);
+
+
+// CIRCLE
+@mixin circle($size, $color) {
+	@include square($size, $color);
+	border-radius: $size / 2;
+}
+// Example
+// @include circle(10px, red);

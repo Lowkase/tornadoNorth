@@ -1,0 +1,26 @@
+// --------------------------------------------------------------------------------
+// MODULES - BUTTON
+// --------------------------------------------------------------------------------
+.m-button {
+    @include transition (all $transition-timer-400ms $transition-easeInOutQuad);
+
+    border-radius: $spacing-1;
+    box-shadow: $box-shadow;
+    cursor: pointer;
+    display: inline-block;
+    padding: $spacing-8 $spacing-13;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+// PRIMARY
+.m-button-primary {
+    background: $template-button-primary;
+    color: $template-button-primary-font-color;
+}
+.m-button-primary:hover {
+    background: $template-button-primary-hover;
+    color: $template-button-primary-hover-font-color;
+}

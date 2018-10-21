@@ -1,0 +1,197 @@
+// --------------------------------------------------------------------------------
+// VARIABLES
+// --------------------------------------------------------------------------------
+
+
+// --------------------------------------------------------------------------------
+// FIXED
+// --------------------------------------------------------------------------------
+
+
+// FONTS
+// --------------------------------------------------------------------------------
+$font-weight-light:                         		300;
+$font-weight-regular:                       		400;
+$font-weight-semibold:                      		600;
+$font-weight-extrabold:                     		800;
+
+// @include font-size(0.6250); // 10px
+// @include font-size(0.6875); // 11px
+// @include font-size(0.7500); // 12px
+// @include font-size(0.8125); // 13px
+// @include font-size(0.8750); // 14px
+// @include font-size(1.0000); // 16px
+// @include font-size(1.1250); // 18px
+// @include font-size(1.2500); // 20px
+// @include font-size(1.2750); // 22px
+// @include font-size(1.5000); // 24px
+// @include font-size(2.2500); // 36px
+// @include font-size(3.0000); // 48px
+// @include font-size(4.0000); // 64px
+// @include font-size(4.5000); // 72px
+
+
+// SPACING
+// --------------------------------------------------------------------------------
+$spacing-1: 										1px;
+$spacing-2: 										2px;
+$spacing-3: 										3px;
+$spacing-5:											5px;
+$spacing-8: 										8px;
+$spacing-13: 										13px;
+$spacing-21:										21px;
+$spacing-34: 										34px;
+$spacing-55: 										55px;
+$spacing-89:										89px;
+$spacing-144: 										144px;
+
+
+// Z-INDEX
+// --------------------------------------------------------------------------------
+$zi-plus-one:										1;
+$zi-modal: 											9;
+
+
+// BOX SHADOW
+// --------------------------------------------------------------------------------
+$box-shadow:										0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+
+
+// TRANSITIONS TIMERS
+// --------------------------------------------------------------------------------
+$transition-timer-100ms: 							.1s;
+$transition-timer-400ms: 							.4s;
+
+
+// EASING
+// --------------------------------------------------------------------------------
+$transition-easeInOutQuad:  						cubic-bezier(0.455, 0.030, 0.515, 0.955);
+
+
+// BREAKPOINTS
+// --------------------------------------------------------------------------------
+$bp-320:     										'only screen and (max-width: 320px)';
+$bp-600:     										'only screen and (max-width: 600px)';
+$bp-768:          									'only screen and (max-width: 786px)';
+$bp-1024:											'only screen and (max-width: 1024px)';
+$bp-1280:                        					'only screen and (max-width: 1280px)';
+
+
+
+// --------------------------------------------------------------------------------
+// PALETTE
+// --------------------------------------------------------------------------------
+
+// TRANSPARENT
+$color-transparent-100:								transparent;
+
+// WHITE
+$color-white-100: 									#FFFFFF;
+$color-white-100-opaque: 					 		rgba(255,255,255,0.75);
+
+// BLACK
+$color-black-100: 									#000000;
+$color-black-100-opaque: 					 		rgba(200,200,200,0.6);
+$color-black-200-opaque:				 			rgba(50,50,50,0.75);
+
+// LIGHT GRAY
+$color-light-gray-100:								lighten(#e8e9ed, 5%);   // #f6f7f8
+$color-light-gray-200:								#e8e9ed;  				// LIGHT GRAY
+$color-light-gray-300:								darken(#e8e9ed, 10%);  	// #cbced7
+$color-light-gray-400:								darken(#e8e9ed, 25%);	// #a0a5b5
+
+// DARK GRAY
+$color-dark-gray-100:								lighten(#68696A, 25%);  // #a8a9aa
+$color-dark-gray-200:								#68696A;  				// DARK GRAY
+$color-dark-gray-300:								darken(#68696A, 10%);  	// #4f5050
+$color-dark-gray-400:								darken(#68696A, 25%);	// #29292a
+
+// BLUE
+$color-blue-100:									lighten(#3b9abe, 25%);  // #99ccdf
+$color-blue-200:									#3b9abe;  				// BLUE
+$color-blue-300:									darken(#3b9abe, 10%);  	// #2f7a97
+$color-blue-400:									darken(#3b9abe, 25%);	// #1d4b5d
+
+// ORANGE
+$color-orange-100:									lighten(#f6851f, 25%);  // #fbc89a
+$color-orange-200:									#f6851f;  // ORANGE
+$color-orange-300:									darken(#f6851f, 10%);  	// #d96c09
+$color-orange-400:									darken(#f6851f, 25%);	// #904706
+
+// PINK
+$color-pink-100:									lighten(#ec407a, 25%);  // ????
+$color-pink-200:									#ec407a;  // PINK
+$color-pink-300:									darken(#ec407a, 10%);  	// ????
+$color-pink-400:									darken(#ec407a, 25%);	// ????
+
+// TEAL
+$color-teal-100:									lighten(#47C1BF, 25%);  // #feebb7
+$color-teal-200:									#47C1BF;  // TEAL
+$color-teal-300:									darken(#47C1BF, 10%);  	// #fab908
+$color-teal-400:									darken(#47C1BF, 25%);	// #b28304
+
+// YELLOW
+$color-yellow-100:									lighten(#fbc73a, 25%);  // #feebb7
+$color-yellow-200:									#fbc73a;  // YELLOW
+$color-yellow-300:									darken(#fbc73a, 10%);  	// #fab908
+$color-yellow-400:									darken(#fbc73a, 25%);	// #b28304
+
+// RED
+$color-red-100:										lighten(#be3b3b, 25%);  // #df9999
+$color-red-200:										#be3b3b;  				// RED
+$color-red-300:										darken(#be3b3b, 10%);  	// #972f2f
+$color-red-400:										darken(#be3b3b, 25%);	// #5d1d1d
+
+// PURPLE
+$color-purple-100:									lighten(#853bbe, 25%);  // #c199df
+$color-purple-200:									#853bbe;  				// PURPLE
+$color-purple-300:									darken(#853bbe, 10%);  	// #6a2f97
+$color-purple-400:									darken(#853bbe, 25%);	// #411d5d
+
+// GREEN
+$color-green-100:									lighten(#5abe3b, 25%);  // #aadf99
+$color-green-200:									#5abe3b;  				// GREEN
+$color-green-300:									darken(#5abe3b, 10%);  	// #48972f
+$color-green-400:									darken(#5abe3b, 25%);	// #2c5d1d
+
+
+
+
+// --------------------------------------------------------------------------------
+// TEMPLATE
+// --------------------------------------------------------------------------------
+
+// DIMENSIONS
+// --------------------------------------------------------------------------------
+$template-input-height:								36px;
+$template-site-min-height:							600px;
+$template-site-min-width: 							320px;
+
+
+// COLORS
+// --------------------------------------------------------------------------------
+$template-background-color:							$color-white-100;
+$template-link-color: 								$color-pink-200;
+
+$template-button-primary: 					        $color-pink-200;
+$template-button-primary-font-color:                $color-white-100;
+$template-button-primary-hover: 				    $color-pink-300;
+$template-button-primary-hover-font-color:          $color-white-100;
+
+
+// FONTS
+// --------------------------------------------------------------------------------
+$font-family-titles:								'Inconsolata', monospace;;
+$font-family-content:								'Krub', sans-serif;
+
+$template-font: 									$font-family-content;
+$template-font-color:								$color-dark-gray-400;
+$template-font-size: 								20px;
+$template-font-weight: 								$font-weight-regular;
+
+
+// BORDERS
+// --------------------------------------------------------------------------------
+$template-border-color: 							$color-light-gray-400;
+$template-border-radius: 							3px;
+

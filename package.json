@@ -1,0 +1,15 @@
+{
+    "name": "NorthernTornado",
+    "version": "1.0.0",
+    "description": "======",
+    "author": "",
+    "license": "ISC",
+    "main": "index.html",
+    "dependencies": {
+        "browser-sync": "*",
+        "fancy-log": "*",
+        "gulp": "*",
+        "gulp-autoprefixer": "*",
+        "gulp-sass": "*"
+    }
+}

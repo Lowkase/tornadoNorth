@@ -1,0 +1,74 @@
+﻿// --------------------------------------------------------------------------------
+// TEMPLATE - HEADER
+// --------------------------------------------------------------------------------
+.header-default {
+	@include j-cf();
+
+	padding: $spacing-8;
+
+	div:first-child {
+		float: left;
+
+		svg {
+			width: 34px;
+		}
+	}
+
+	div:last-child {
+        font-family: $font-family-titles;
+        font-weight: $font-weight-light;		
+		float: left;
+		margin-left: $spacing-8;
+		margin-top: 4px;
+		text-align: left;
+
+		span:first-child {
+			color: $color-pink-200;
+		}
+
+		span:last-child {
+			color: $color-dark-gray-100;
+		}
+	}
+}
+
+
+.header-home {
+	text-align: center;
+
+    #tornado {
+        max-width: 320px;
+        margin-top: -$spacing-34;
+        width: 60%;
+    }
+
+    .title {
+        margin-bottom: $spacing-55;
+        margin-top: -$spacing-13;
+
+        div {
+            font-family: $font-family-titles;
+            font-weight: $font-weight-light;
+        }
+
+        div:first-child {
+            @include fluid-font(48px, 64px);
+
+            color: $color-pink-200;
+        }
+
+        div:last-child {
+            @include fluid-font(36px, 48px);
+
+            color: $color-dark-gray-100;
+            letter-spacing: 23px;
+                @media #{$bp-600} {
+                    letter-spacing: 18px;
+                }
+
+            span {
+                letter-spacing: 0;
+            }
+        }
+    }
+}

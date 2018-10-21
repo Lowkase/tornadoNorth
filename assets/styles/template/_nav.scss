@@ -1,0 +1,47 @@
+// --------------------------------------------------------------------------------
+// TEMPLATE - NAV
+// --------------------------------------------------------------------------------
+nav {
+	margin-bottom: $spacing-21;
+    text-align: center;
+
+    svg {
+    	@include transition(all $transition-timer-400ms $transition-easeInOutQuad);
+    	
+    	cursor: pointer;
+		display: block;
+		fill: $color-pink-100;
+    }
+	svg:hover {
+		fill: $color-pink-200;
+	}
+
+    > a {
+    	display: inline-block;
+    }
+
+    .back {
+    	padding-bottom: 15px;
+
+        svg {
+	    	height: 30px;
+	    	@include transform( rotate(180deg) );
+	    	width: 30px;
+    	}	
+    }
+
+    .next {
+    	margin-left: $spacing-13;
+
+		svg {
+			height: 60px;
+			width: 60px;
+		}  	
+    }
+}
+
+.nav-absolute-bottom {
+	@include position(absolute, $right: 0, $bottom: $spacing-55, $left: 0);
+
+	margin: 0 auto;
+}

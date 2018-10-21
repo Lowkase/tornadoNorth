@@ -1,0 +1,72 @@
+// --------------------------------------------------------------------------------
+// MIXINS - TABLE
+// --------------------------------------------------------------------------------
+@mixin table-card() {
+    .hdr {
+        display: none !important
+    }
+
+    .bdy {
+        .lbl {
+            display: block !important;
+        }
+
+        .row {
+			> div {
+                height: auto !important;
+                line-height: normal !important;
+			}
+        }
+
+        .bdy-col-actions {
+            float: none !important;
+            width: 100% !important;
+        }
+    }
+}
+// Example
+/*
+    @include table-card();
+*/
+
+@mixin table-card-min($isstatus: null) {
+    .hdr {
+        display: none !important
+    }
+
+    .bdy {
+        .lbl {
+            display: block !important;
+        }
+
+        .row {
+            @if $isstatus == true {
+                padding-top: $spacing-21;
+            }
+           
+            padding-bottom: 0;
+            position: relative !important;
+
+            > div {
+                @include j-column(1);
+
+                height: auto !important;
+                line-height: normal !important;
+                width: 100% !important;
+            }
+
+            .bdy-col-status {
+                float: none !important;
+                position: absolute !important;
+                right: 0 !important;
+                top: 0 !important;
+                width: auto !important;
+            }
+        }
+    }
+
+}
+// Example
+/*
+    @include table-card-min();
+*/

@@ -1,0 +1,25 @@
+﻿// --------------------------------------------------------------------------------
+// TEMPLATE - GRID
+// --------------------------------------------------------------------------------
+.t-grid {
+    @include j-cf();
+
+    > * {
+        width: 100%;
+    }
+
+    input[type=radio], input[type=checkbox] {
+        width: auto;
+    }
+}
+
+.t-grid-50 {
+    .lft {
+        @include j-column(6/12, $gutter: 1);
+    }
+
+    .rgt {
+        @include j-column(6/12, $gutter: 1);
+
+    }
+}

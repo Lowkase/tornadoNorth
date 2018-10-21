@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Tornado North</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Krub|Rajdhani" rel="stylesheet">
+		<link rel="stylesheet" href="assets/styles/style.css">
+	</head>
+    <body class="v-prepare">
+
+
+		<!-- HEADER - START -->
+		<header class="header-default">
+			<a href="index.html">
+				<div>
+					<!-- TORNADO -->
+					<svg version="1.1" id="tornado" class="climacon climacon_tornado" viewBox="15 15 70 70">
+						<g class="climacon_iconWrap climacon_iconWrap-tornado">
+							<g class="climacon_componentWrap climacon_componentWrap-tornado">
+								<path class="climacon_component climacon_component-stroke climacon_component-stroke_tornadoLine"
+								d="M68.997,36.459H31.002c-1.104,0-2-0.896-2-1.999c0-1.104,0.896-2,2-2h37.995c1.104,0,2,0.896,2,2C70.997,35.563,70.102,36.459,68.997,36.459z"/>
+								<path class="climacon_component climacon_component-stroke climacon_component-stroke_tornadoLine"
+								d="M35.002,40.459h29.996c1.104,0,2,0.896,2,2s-0.896,1.999-2,1.999H35.002c-1.104,0-2-0.896-2-1.999C33.002,41.354,33.898,40.459,35.002,40.459z"/>
+								<path class="climacon_component climacon_component-stroke climacon_component-stroke_tornadoLine"
+								d="M39.001,48.458h21.998c1.104,0,1.999,0.896,1.999,1.999c0,1.104-0.896,2-1.999,2H39.001c-1.104,0-1.999-0.896-1.999-2C37.002,49.354,37.897,48.458,39.001,48.458z"/>
+								<path class="climacon_component climacon_component-stroke climacon_component-stroke_tornadoLine"
+								d="M47,64.456h5.999c1.104,0,2,0.896,2,1.999s-0.896,2-2,2H47c-1.104,0-2-0.896-2-2S45.896,64.456,47,64.456z"/>
+								<path class="climacon_component climacon_component-stroke climacon_component-stroke_tornadoLine"
+								d="M40.869,58.456c0-1.104,0.896-1.999,2-1.999h13.998c1.104,0,2,0.896,2,1.999c0,1.104-0.896,2-2,2H42.869C41.765,60.456,40.869,59.561,40.869,58.456z"/>
+							</g>
+						</g>
+					</svg>
+				</div>
+				<div>
+					<span>TORNADO</span>
+					<span>NORTH</span>
+				</div>
+			</a>
+		</header>
+		<!-- HEADER - END -->
+
+
+		<!-- SECTION - START -->
+		<section>
+
+			<!-- CLOUD -->
+			<svg version="1.1" id="cloudFill" class="climacon climacon_cloudFill" viewBox="15 15 70 70">
+				<g class="climacon_iconWrap climacon_iconWrap-cloud">
+					<g class="climacon_componentWrap climacon_componentWrap_cloud">
+						<path class="climacon_component climacon_component-stroke climacon_component-stroke_cloud"
+						d="M43.945,65.639c-8.835,0-15.998-7.162-15.998-15.998c0-8.836,7.163-15.998,15.998-15.998c6.004,0,11.229,3.312,13.965,8.203c0.664-0.113,1.338-0.205,2.033-0.205c6.627,0,11.998,5.373,11.998,12c0,6.625-5.371,11.998-11.998,11.998C57.168,65.639,47.143,65.639,43.945,65.639z"/>
+						<path class="climacon_component climacon_component-fill climacon_component-fill_cloud" fill="#FFFFFF"
+						d="M59.943,61.639c4.418,0,8-3.582,8-7.998c0-4.417-3.582-8-8-8c-1.601,0-3.082,0.481-4.334,1.291c-1.23-5.316-5.973-9.29-11.665-9.29c-6.626,0-11.998,5.372-11.998,11.999c0,6.626,5.372,11.998,11.998,11.998C47.562,61.639,56.924,61.639,59.943,61.639z"/>
+					</g>
+				</g>
+			</svg>
+
+			<h3>PREPARE</h3>
+			<p>
+				Build or purchase an emergency kit that will allow you to be self sufficient for up to 72 hours.
+			</p>
+
+
+			<!-- QUESTIONS - START -->
+			<div id="emergency-kit-questions" class="emergency-kit-questions">
+				<div class="title">
+					CREATE A 72 HOUR EMERGENCY KIT CHECKLIST
+				</div>			
+
+				<div class="m-form-input m-form-textbox">
+					<label>How many individuals are in your household that are not infants?:</label>
+					<input id="individuals" type="number" min="1" max="20" value=1 />
+				</div>
+
+				<div class="m-form-input m-form-checkbox">
+					<label>How many infants are in your household?:</label>
+					<input id="infants" type="number" min="0" max="10" value=0 />
+				</div>
+
+				<div class="m-form-input m-form-textbox">
+					<label>How many pets are in your household?:</label>
+					<input id="pets" type="number" min="0" max="50" value=0 />
+				</div>
+
+				<div id="generate-emergency-kit" class="m-button m-button-primary">
+					GENERATE CHECKLIST
+				</div>
+			</div>
+			<!-- QUESTIONS - END -->
+
+
+			<!-- LIST - START -->
+			<div id="emergency-kit-list" class="emergency-kit-list">
+				<div class="title">
+					SUGGESTED 72 HOUR EMERGENCY CHECKLIST
+				</div>	
+
+				<ul class="emergency-kit-list-items">
+					<!-- WATER -->
+					<li>
+						<div class="item">
+							Water
+						</div>
+						<div class="description">
+							<span id="liters-of-water">0</span> liters of water.  Includes water for cooking and cleaning.
+						</div>
+					</li>
+
+					<!-- FOOD -->
+					<li>
+						<div class="item">
+							Food
+						</div>
+						<div class="description">
+							<div>
+								<span id="boxes-cereal">0</span> boxes of cereal.
+							</div>
+							<div>
+								<span id="boxes-crackers">0</span> boxes of crackers.
+							</div>
+							<div>
+								<span id="jars-spread">0</span> jars of peanut butter or other spread.
+							</div>
+							<div>
+								<span id="cans">0</span> cans of food (stews, soup, fruit , vegetables, fish, etc).
+							</div>
+							<div>
+								<span id="trailmix-packages">0</span> packages of dried fruits, nuts, trailmix, etc.
+							</div>
+							<div>
+								<span id="energy-bars">0</span> energy bars, granola bars, etc.
+							</div>
+							<div>
+								<span id="dessert-cups">0</span> dessert cups (pudding, jello, etc).
+							</div>
+						</div>
+					</li>
+
+					<!-- DRINK -->
+					<li>
+						<div class="item">
+							Drink
+						</div>
+						<div class="description">
+							<div>
+								<span id="juice-boxes">0</span> juice boxes (apple, orange, etc).
+							</div>
+							<div>
+								<span id="dried-milk">0</span> packages dried milk.
+							</div>
+							<div>
+								<span id="coffee">0</span> ounces coffee.
+							</div>
+							<div>
+								<span id="tea">0</span> bags of tea.
+							</div>
+							<div>
+								<span id="hot-chocolate">0</span> individual packs of hot chocolate.
+							</div>
+						</div>
+					</li>
+
+					<!-- INFANT -->
+					<li class="infant">
+						<div class="item">
+							Infant
+						</div>
+						<div class="description">
+							<div>
+								<span id="formula">0</span> ounces forumla (based on a maximum of 32oz per day per infant).
+							</div>
+						</div>
+					</li>
+
+					<!-- PETS -->
+					<li class="pets">
+						<div class="item">
+							Pets
+						</div>
+						<div class="description">
+							<div>
+								<span id="pet-food">0</span> meal sized portions of pet food.
+							</div>
+						</div>
+					</li>
+
+
+					<!-- SUPPLIES -->
+					<li>
+						<div class="item">
+							Supplies
+						</div>
+						<div class="description">
+							<div>
+								Manual can opener
+							</div>
+							<div>
+								Small fuel-operated stove and fuel
+							</div>
+							<div>
+								Utensils, plates, cups
+							</div>
+							<div>
+								Wind-up or battery-powered flashlight (extra batteries), candles and matches or lighter
+							</div>
+							<div>
+								Wind-up or battery-powered radio (extra batteries)
+							</div>
+							<div>
+								First aid kit
+							</div>
+							<div>
+								Extra keys (car, house, etc)
+							</div>
+							<div>
+								Cash, travellers' cheques
+							</div>
+							<div>
+								Important documents (water proof, fire proof container)
+							</div>
+							<div>
+								Emergency plan
+							</div>
+							<div>
+								<span id="clothing">0</span> changes of clothes.
+							</div>
+							<div>
+								<span id="sleep">0</span> sleeping bags or warm blanket.
+							</div>
+							<div>
+								<span id="toilet-paper">0</span> rolls of toilet paper.
+							</div>
+							<div>
+								Soap, hand sanitizer and other hygiene items
+							</div>
+							<div>
+								Prescription medications, medical equipment
+							</div>							
+							<div>
+								1 package garbage bags
+							</div>
+							<div>
+								Prepaid phone card, mobile phone charger
+							</div>
+							<div>
+								Small entertainment items (cards, books, toys, etc)
+							</div>
+							<div>
+								Household chlorine bleach or water purifying tablets
+							</div>
+							<div>
+								Basic tools (hammer, pliers, wrench, screwdrivers, work gloves, pocket knife)
+							</div>
+							<div>
+								Duct tape
+							</div>
+							<div>
+								Whistle
+							</div>
+						</div>
+					</li>
+
+				</ul>
+
+				<div id="generate-new-emergency-kit" class="m-button m-button-primary">
+					CREATE A NEW CHECKLIST
+				</div>				
+			</div>
+			<!-- LIST - END -->
+
+
+		</section>
+		<!-- SECTION - END -->
+
+
+		<!-- NAV -->
+		<nav>
+			<a class="back" href="actions.html">
+				<svg version="1.1" viewBox="0 0 44.236 44.236">
+					<g>
+						<path d="M22.118,44.236C9.922,44.236,0,34.314,0,22.118S9.922,0,22.118,0s22.118,9.922,22.118,22.118S34.314,44.236,22.118,44.236zM22.118,1.5C10.75,1.5,1.5,10.749,1.5,22.118c0,11.368,9.25,20.618,20.618,20.618c11.37,0,20.618-9.25,20.618-20.618C42.736,10.749,33.488,1.5,22.118,1.5z"/>
+						<path d="M19.341,29.884c-0.192,0-0.384-0.073-0.53-0.22c-0.293-0.292-0.293-0.768,0-1.061l6.796-6.804l-6.796-6.803
+						c-0.292-0.293-0.292-0.769,0-1.061c0.293-0.293,0.768-0.293,1.061,0l7.325,7.333c0.293,0.293,0.293,0.768,0,1.061l-7.325,7.333C19.725,29.811,19.533,29.884,19.341,29.884z"/>
+					</g>
+				</svg>
+			</a>
+		</nav>
+
+
+		<!-- LIBS -->
+		<script src="/assets/libs/jquery/jquery-3.3.1.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<!-- DATA -->
+
+		<!-- INIT -->
+		<script>
+            $(document).ready(function() {
+				AOS.init();
+
+				var individuals = 1;
+				var infants = 0;
+				var pets = 0;
+
+				$("body").on("click", "#generate-emergency-kit", function() {
+					individuals = parseInt($("#individuals").val());
+					infants = parseInt($("#infants").val());
+					pets = parseInt($("#pets").val());
+
+					var litersOfWater = (individuals + infants + pets) * 4;
+					$("#liters-of-water").text(litersOfWater);
+
+					var boxesCereal = (individuals) * 1;
+					$("#boxes-cereal").text(boxesCereal);
+
+					var boxesCrackers = (individuals) * 1;
+					$("#boxes-crackers").text(boxesCrackers);
+					
+					var jarsSpread = (individuals) * 1;
+					$("#jars-spread").text(jarsSpread);
+
+					var cans = (individuals) * 9;
+					$("#cans").text(cans);
+				
+					var trailmixPackages = (individuals) * 3;
+					$("#trailmix-packages").text(trailmixPackages);
+
+					var engeryBars = (individuals) * 12;
+					$("#energy-bars").text(engeryBars);
+
+					var dessertCups = (individuals) * 3;
+					$("#dessert-cups").text(dessertCups);
+
+					var juiceBoxes = (individuals) * 6;
+					$("#juice-boxes").text(juiceBoxes);
+
+					var driedMilk = (individuals) * 1;
+					$("#dried-milk").text(driedMilk);
+
+					var coffee = (individuals) * 2;
+					$("#coffee").text(coffee);
+
+					var tea = (individuals) * 9;
+					$("#tea").text(tea);
+
+					var hotChocolate = (individuals) * 3;
+					$("#hot-chocolate").text(hotChocolate);
+
+
+					if(infants == 0) {
+						$(".infant").hide();
+					}
+
+					var formula = ( (infants) * 3 ) * 32;
+					$("#formula").text(formula);
+
+
+					if(pets == 0) {
+						$(".pets").hide();
+					}
+
+					var petFood = ( pets * 3 ) * 3;
+					$("#pet-food").text(petFood);
+
+
+					var clothing = ( individuals + infants ) * 3;
+					$("#clothing").text(clothing);
+
+					var sleep = ( individuals + infants );
+					$("#sleep").text(sleep);
+
+					var toiletPaper = ( individuals ) * 3;
+					$("#toilet-paper").text(toiletPaper);
+
+
+					$("#emergency-kit-questions").hide();
+					$("#emergency-kit-list").show();
+				});				
+
+				$("body").on("click", "#generate-new-emergency-kit", function() {
+
+// RESET VALUES
+
+
+					$("#emergency-kit-list").hide();
+					$("#emergency-kit-questions").show();
+				});				
+
+            });
+        </script>
+
+	</body>
+</html>

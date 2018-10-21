@@ -1,0 +1,9 @@
+// --------------------------------------------------------------------------------
+// MIXINS - ANIMATE
+// --------------------------------------------------------------------------------
+@mixin animate($target, $duration: 1s, $repeat: infinite) {
+	-webkit-animation: 	$target $duration $repeat;
+	-moz-animation: 	$target $duration $repeat;
+	-o-animation: 		$target $duration $repeat;
+	animation: 			$target $duration $repeat;
+}

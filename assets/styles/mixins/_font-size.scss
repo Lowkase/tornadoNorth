@@ -1,0 +1,14 @@
+// --------------------------------------------------------------------------------
+// MIXINS - FONT SIZE
+// --------------------------------------------------------------------------------
+
+// A rem font-size mixin providing fallback to px (IE < 11 do not support rem)
+@mixin font-size($sizeValue: 1.4) {
+    $remValue: $sizeValue;
+    $pxValue: ($sizeValue * 10);
+    font-size: #{$pxValue}px;
+    font-size: #{$remValue}rem;
+}
+
+// Example
+//@include font-size(0.8125rem);

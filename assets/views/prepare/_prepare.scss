@@ -1,0 +1,83 @@
+// --------------------------------------------------------------------------------
+// VIEW - PREPARE
+//---------------------------------------------------------------------------------
+.v-prepare {
+
+    #cloudFill {
+        max-width: 120px;
+        margin-top: -$spacing-34;
+        width: 60%;
+    }
+
+	.title {
+		font-weight: $font-weight-semibold;
+		margin-bottom: $spacing-21;
+	}
+
+	.emergency-kit-questions {
+		margin-bottom: $spacing-55;
+		margin-top: $spacing-55;
+
+		.m-form-input {
+			margin-bottom: $spacing-21;
+			label {
+				margin-bottom: $spacing-5;
+			}
+		}
+
+		.m-button {
+			margin-top: $spacing-21;
+		}
+	}
+
+	.emergency-kit-list {
+		display: none;
+		margin-top: $spacing-55;
+
+		.emergency-kit-list-items {
+			@include fluid-font(16px, 20px);
+
+			margin: 0 auto $spacing-55 auto;
+			max-width: 600px;
+
+			li {
+				@include j-cf();
+
+				margin-bottom: $spacing-8;
+
+				.item {
+					@include j-column(3/12);
+
+					color: $color-pink-200;
+					text-align: left;
+				}
+
+				.description {
+					@include j-column(9/12);
+
+					text-align: left;
+				}
+
+				@media #{$bp-600} {
+					.item {
+						@include j-column(1);
+
+						text-align: center;
+					}
+
+					.description {
+						@include j-column(1);
+
+						text-align: center;
+					}
+        		}				
+
+			}
+		}
+
+
+	}
+
+
+
+}

@@ -1,0 +1,83 @@
+// --------------------------------------------------------------------------------
+// VIEW - ACTIONS
+//---------------------------------------------------------------------------------
+.v-actions {
+
+    #wind {
+        max-width: 120px;
+        margin-top: -$spacing-34;
+        width: 60%;
+    }
+
+	.actions-list {
+		margin-bottom: $spacing-55;
+		margin-top: $spacing-55;
+
+		.item {
+			margin-bottom: $spacing-55;
+
+			.title {
+				font-weight: $font-weight-semibold;
+				margin-bottom: $spacing-21;
+			}
+
+			.do-dont {
+				@include j-cf();
+
+				margin-bottom: $spacing-21;
+
+				> div {
+					@include j-column(6/12);
+						@media #{$bp-600} {
+		               		@include j-column(1);
+	            		}
+
+ 					background: $color-light-gray-200;
+ 					padding: $spacing-21;
+				}
+
+				.do {
+					margin-bottom: $spacing-21;
+
+					.icon {
+						background: $color-green-100;
+					}
+				}
+
+				.dont {
+					.icon {
+						background: $color-red-100;
+					}
+				}
+
+				.title {
+					@include j-cf();
+
+					.icon {
+						border-radius: 50%;
+						float: left;
+						height: $spacing-34;
+						width: $spacing-34;
+
+						svg {
+							height: $spacing-21;
+							margin-top: 6px;
+							width: $spacing-21;
+						}
+					}
+					.text {
+						float: left;
+						margin: $spacing-3 0 0 $spacing-8;
+					}
+				}
+
+				.description {
+					@include fluid-font(16px, 20px);
+
+					text-align: left;
+				}
+			}
+		}
+	}
+
+}

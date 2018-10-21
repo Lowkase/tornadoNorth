@@ -1,0 +1,117 @@
+// --------------------------------------------------------------------------------
+// BASE - ELEMENTS
+//---------------------------------------------------------------------------------
+*, *:before, *:after {
+    box-sizing: inherit;
+    text-shadow: none !important;
+}
+
+html {
+    box-sizing: border-box;
+    //box-sizing: content-box;
+    
+    -webkit-font-smoothing: antialiased; 
+    -webkit-tap-highlight-color: $color-white-100;
+    -webkit-text-size-adjust: none; 
+}
+
+html, body {
+    background: $template-background-color;
+    color: $template-font-color;
+
+    font-family: $template-font;
+    font-size: $template-font-size;
+    font-weight: $template-font-weight;
+
+    min-height: $template-site-min-height;
+    min-width: $template-site-min-width;
+
+    height: 100%;
+    width: 100%;
+
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin: 0;
+    margin-bottom: $spacing-13;
+}
+
+h3 {
+    color: $color-pink-300;
+    margin-bottom: $spacing-13;
+    text-align: center;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+
+a {
+    color: $template-link-color;
+}
+
+label {
+    @include font-size(0.875); // 14px
+
+    display: block;
+}
+
+input, textarea {
+    @include font-size(0.875); // 14px
+}
+
+input[type=text], input[type=number], input[type=password], textarea {
+    border: 1px solid $template-border-color;
+    height: $template-input-height;
+    margin-bottom: 0;
+    outline: none;
+    padding: $spacing-3;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+    border: 1px solid $template-border-color;
+    box-shadow: $box-shadow;
+}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
+    background-color: $color-light-gray-100;
+}
+
+select {
+    display: block;
+    height: $template-input-height;
+    outline: none;
+    padding: $spacing-3 $spacing-13;   
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.ul-base {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    @include fluid-font(18px, 24px);
+
+    margin: 0 auto $spacing-21 auto;
+    width: 60%;
+        @media #{$bp-768} {
+            width: 90%;
+        }            
+}
+

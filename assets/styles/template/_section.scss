@@ -1,0 +1,18 @@
+﻿// --------------------------------------------------------------------------------
+// TEMPLATE - SECTION
+// --------------------------------------------------------------------------------
+section {
+	text-align: center;
+   	padding: $spacing-21;
+
+    .content-image {
+        display: block;
+        margin: 0 auto $spacing-21 auto;
+        max-width: 600px;
+        width: 90%;
+    }
+
+    .highlight {
+    	color: $color-pink-200;
+    }
+}
