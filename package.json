@@ -4,6 +4,7 @@
     "description": "======",
     "author": "",
     "license": "ISC",
+    "repository": "github:user/repo",
     "main": "index.html",
     "dependencies": {
         "body-parser": "^1.15.2",
@@ -13,7 +14,7 @@
         "node": "*",
         "npm": "*"
     },    
-    "dependencies": {
+    "devDependencies": {
         "browser-sync": "*",
         "fancy-log": "*",
         "gulp": "*",
