@@ -35,11 +35,6 @@ app.get('/', function(req, res) {
     res.sendFile('index.html');
 });
 
-// 404
-app.get('*', function(req, res){
-    res.sendFile('index.html');
-});
-
 
 // START
 // ------------------------------------------------------------------------
