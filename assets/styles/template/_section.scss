@@ -6,10 +6,32 @@ section {
    	padding: $spacing-21;
 
     .content-image {
-        display: block;
-        margin: 0 auto $spacing-21 auto;
-        max-width: 600px;
-        width: 90%;
+        margin-bottom: $spacing-21;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 600px;
+            width: 90%;
+        }
+
+        iframe {
+            margin-bottom: 0;
+            max-width: 600px;
+            width: 90%;
+        }
+
+        a {
+            @include font-size(0.6250); // 10px
+
+            color: $color-light-gray-400;
+            display: block;
+            text-align: center;
+        }
+
+        .image-by {
+            @include font-size(0.6250); // 10px
+        }
     }
 
     .highlight {

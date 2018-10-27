@@ -27,7 +27,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 3870,
+				"buffer_size": 29,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -36,7 +36,7 @@
 			"file": "assets/styles/style.scss",
 			"settings":
 			{
-				"buffer_size": 1077,
+				"buffer_size": 1050,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -45,7 +45,7 @@
 			"file": "assets/styles/base/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 7455,
+				"buffer_size": 7035,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -60,28 +60,10 @@
 			}
 		},
 		{
-			"file": "assets/views/actions/_actions.scss",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1400,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "actions.html",
-			"settings":
-			{
-				"buffer_size": 30992,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "prepare.html",
-			"settings":
-			{
-				"buffer_size": 3358,
+				"buffer_size": 3303,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -127,35 +109,33 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/siku/Workspace/tornadoNorth",
-		"/Users/siku/Workspace/tornadoNorth/assets",
-		"/Users/siku/Workspace/tornadoNorth/assets/styles",
-		"/Users/siku/Workspace/tornadoNorth/assets/styles/template",
-		"/Users/siku/Workspace/tornadoNorth/assets/views",
-		"/Users/siku/Workspace/tornadoNorth/assets/views/actions"
+		"/Users/siku/Workspace/tornadoNorth"
 	],
 	"file_history":
 	[
+		"/Users/siku/Workspace/tornadoNorth/server.js",
+		"/Users/siku/Workspace/sparklespa/package.json",
+		"/Users/siku/Workspace/tornadoNorth/package.json",
+		"/Users/siku/Workspace/tornadoNorth/learn.html",
 		"/Users/siku/Workspace/tornadoNorth/recognize.html",
+		"/Users/siku/Workspace/tornadoNorth/actions.html",
+		"/Users/siku/Workspace/tornadoNorth/prepare.html",
+		"/Users/siku/Workspace/tornadoNorth/index.html",
+		"/Users/siku/Workspace/tornadoNorth/assets/views/prepare/_prepare.scss",
+		"/Users/siku/Workspace/tornadoNorth/assets/views/actions/_actions.scss",
+		"/Users/siku/Workspace/tornadoNorth/assets/styles/template/_header.scss",
+		"/Users/siku/Workspace/tornadoNorth/assets/styles/modules/_button.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/views/recognize/_recognize.scss",
 		"/Users/siku/Temp/dont.svg",
 		"/Users/siku/Temp/do.svg",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/template/_section.scss",
-		"/Users/siku/Workspace/tornadoNorth/index.html",
-		"/Users/siku/Workspace/tornadoNorth/assets/views/actions/_actions.scss",
-		"/Users/siku/Workspace/tornadoNorth/assets/views/prepare/_prepare.scss",
-		"/Users/siku/Workspace/tornadoNorth/learn.html",
-		"/Users/siku/Workspace/tornadoNorth/actions.html",
-		"/Users/siku/Workspace/tornadoNorth/prepare.html",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/template/_nav.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/views/index/_index.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/views/learn/_learn.scss",
-		"/Users/siku/Workspace/tornadoNorth/assets/styles/template/_header.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/template/_wrap.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/modules/_climacon.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/mixins/_fluid-font.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/base/_elements.scss",
-		"/Users/siku/Workspace/tornadoNorth/assets/styles/modules/_button.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/modules/_actions.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/base/_variables-fixed.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/base/_variables-theme.scss",
@@ -180,7 +160,6 @@
 		"/Users/siku/Workspace/sparklespa/assets/styles/template/_wrap.scss",
 		"/Users/siku/Workspace/sparklespa/gulpfile.js",
 		"/Users/siku/Workspace/sparklespa/_index.scss",
-		"/Users/siku/Workspace/sparklespa/package.json",
 		"/Users/siku/Workspace/sparklespa3/new/assets/views/template/header.html",
 		"/Users/siku/Workspace/sparklespa2/contactus.html",
 		"/Users/siku/Workspace/sparklespa2/pricing.html",
@@ -261,9 +240,7 @@
 		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/training/template.html",
 		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/employment.html",
 		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/newsroom.html",
-		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/procurement.html",
-		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/services.html",
-		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/articles/2016/09/article1.html"
+		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/procurement.html"
 	],
 	"find":
 	{
@@ -282,6 +259,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"TORNADO",
+			"$bp-",
+			"$bp-768",
 			"fluid-font",
 			"climacon_component-fill",
 			"climacon_component-stroke",
@@ -293,6 +273,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"TORNADOE"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -303,7 +284,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -312,20 +293,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3870,
+						"buffer_size": 29,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13,
-								13
+								29,
+								29
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -340,15 +322,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1077,
+						"buffer_size": 1050,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								746,
-								746
+								652,
+								652
 							]
 						],
 						"settings":
@@ -359,7 +341,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -368,15 +350,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7455,
+						"buffer_size": 7035,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5118,
-								5124
+								4292,
+								4298
 							]
 						],
 						"settings":
@@ -384,10 +366,10 @@
 							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1860.0,
+						"translation.y": 1948.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -403,8 +385,8 @@
 						"selection":
 						[
 							[
-								2116,
-								2148
+								2251,
+								2251
 							]
 						],
 						"settings":
@@ -417,73 +399,16 @@
 						"translation.y": 1028.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/views/actions/_actions.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								573,
-								573
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 181.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "actions.html",
+					"buffer": 4,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30992,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16511,
-								16511
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4425.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "prepare.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3358,
+						"buffer_size": 3303,
 						"regions":
 						{
 						},
@@ -500,10 +425,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 78.0,
+						"translation.y": 268.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
