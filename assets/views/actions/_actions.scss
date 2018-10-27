@@ -24,11 +24,12 @@
 			.do-dont {
 				@include j-cf();
 
-				margin-bottom: $spacing-21;
+				margin: 0 auto $spacing-21 auto;
+				max-width: 768px;
 
 				> div {
 					@include j-column(6/12);
-						@media #{$bp-600} {
+						@media #{$bp-768} {
 		               		@include j-column(1);
 	            		}
 
@@ -37,7 +38,10 @@
 				}
 
 				.do, .dont {
-					height: 230px;
+					height: 280px;
+						@media #{$bp-768} {
+		               		height: auto;
+	            		}					
 				}
 
 				.do {

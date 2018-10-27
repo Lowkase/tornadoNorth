@@ -44,9 +44,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3 {
+    @include fluid-font(18px, 24px);
+
     color: $color-pink-300;
-    margin-bottom: $spacing-13;
+    margin: 0 auto $spacing-21 auto;
     text-align: center;
+    width: 50%;
+        @media #{$bp-768} {
+            width: 90%;
+        }            
 }
 
 fieldset {
@@ -109,7 +115,7 @@ p {
     @include fluid-font(18px, 24px);
 
     margin: 0 auto $spacing-21 auto;
-    width: 60%;
+    width: 50%;
         @media #{$bp-768} {
             width: 90%;
         }            
