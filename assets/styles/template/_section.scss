@@ -5,6 +5,12 @@ section {
 	text-align: center;
    	padding: $spacing-21;
 
+    .section-svg {
+        max-width: 120px;
+        margin-top: -$spacing-34;
+        width: 60%;
+    }
+
     .content-image {
         margin-bottom: $spacing-21;
 
