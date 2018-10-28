@@ -54,7 +54,43 @@
 			"file": "assets/styles/base/_elements.scss",
 			"settings":
 			{
-				"buffer_size": 2280,
+				"buffer_size": 2413,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "learn.html",
+			"settings":
+			{
+				"buffer_size": 5613,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "prepare.html",
+			"settings":
+			{
+				"buffer_size": 12338,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "recognize.html",
+			"settings":
+			{
+				"buffer_size": 14783,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "actions.html",
+			"settings":
+			{
+				"buffer_size": 31536,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -63,7 +99,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3303,
+				"buffer_size": 3929,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -109,33 +145,37 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/siku/Workspace/tornadoNorth"
+		"/Users/siku/Workspace/tornadoNorth",
+		"/Users/siku/Workspace/tornadoNorth/assets",
+		"/Users/siku/Workspace/tornadoNorth/assets/styles",
+		"/Users/siku/Workspace/tornadoNorth/assets/styles/template"
 	],
 	"file_history":
 	[
-		"/Users/siku/Workspace/tornadoNorth/server.js",
-		"/Users/siku/Workspace/sparklespa/package.json",
-		"/Users/siku/Workspace/tornadoNorth/package.json",
-		"/Users/siku/Workspace/tornadoNorth/learn.html",
-		"/Users/siku/Workspace/tornadoNorth/recognize.html",
-		"/Users/siku/Workspace/tornadoNorth/actions.html",
-		"/Users/siku/Workspace/tornadoNorth/prepare.html",
-		"/Users/siku/Workspace/tornadoNorth/index.html",
-		"/Users/siku/Workspace/tornadoNorth/assets/views/prepare/_prepare.scss",
-		"/Users/siku/Workspace/tornadoNorth/assets/views/actions/_actions.scss",
-		"/Users/siku/Workspace/tornadoNorth/assets/styles/template/_header.scss",
-		"/Users/siku/Workspace/tornadoNorth/assets/styles/modules/_button.scss",
-		"/Users/siku/Workspace/tornadoNorth/assets/views/recognize/_recognize.scss",
-		"/Users/siku/Temp/dont.svg",
-		"/Users/siku/Temp/do.svg",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/template/_section.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/template/_nav.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/views/index/_index.scss",
+		"/Users/siku/Workspace/tornadoNorth/prepare.html",
+		"/Users/siku/Workspace/tornadoNorth/assets/views/prepare/_prepare.scss",
+		"/Users/siku/Workspace/tornadoNorth/actions.html",
+		"/Users/siku/Workspace/tornadoNorth/assets/views/actions/_actions.scss",
+		"/Users/siku/Workspace/tornadoNorth/recognize.html",
+		"/Users/siku/Workspace/tornadoNorth/assets/views/recognize/_recognize.scss",
+		"/Users/siku/Workspace/tornadoNorth/robots.txt",
 		"/Users/siku/Workspace/tornadoNorth/assets/views/learn/_learn.scss",
+		"/Users/siku/Workspace/tornadoNorth/learn.html",
+		"/Users/siku/Workspace/tornadoNorth/index.html",
+		"/Users/siku/Workspace/tornadoNorth/assets/styles/base/_elements.scss",
+		"/Users/siku/Workspace/tornadoNorth/server.js",
+		"/Users/siku/Workspace/sparklespa/package.json",
+		"/Users/siku/Workspace/tornadoNorth/package.json",
+		"/Users/siku/Workspace/tornadoNorth/assets/styles/template/_header.scss",
+		"/Users/siku/Workspace/tornadoNorth/assets/styles/modules/_button.scss",
+		"/Users/siku/Temp/dont.svg",
+		"/Users/siku/Temp/do.svg",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/template/_wrap.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/modules/_climacon.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/mixins/_fluid-font.scss",
-		"/Users/siku/Workspace/tornadoNorth/assets/styles/base/_elements.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/modules/_actions.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/base/_variables-fixed.scss",
 		"/Users/siku/Workspace/tornadoNorth/assets/styles/base/_variables-theme.scss",
@@ -239,8 +279,7 @@
 		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/styles/modules/_forms.scss",
 		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/training/template.html",
 		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/employment.html",
-		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/newsroom.html",
-		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/procurement.html"
+		"/Users/siku/Workspace/IonUnited/ionunited-publicweb/trunk/public_html/assets/views/newsroom.html"
 	],
 	"find":
 	{
@@ -259,6 +298,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<h3>",
+			"content-image",
 			"TORNADO",
 			"$bp-",
 			"$bp-768",
@@ -284,7 +325,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -313,7 +354,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -341,7 +382,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -357,8 +398,8 @@
 						"selection":
 						[
 							[
-								4292,
-								4298
+								698,
+								663
 							]
 						],
 						"settings":
@@ -366,10 +407,10 @@
 							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1948.0,
+						"translation.y": 52.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -378,15 +419,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2280,
+						"buffer_size": 2413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2251,
-								2251
+								990,
+								990
 							]
 						],
 						"settings":
@@ -396,27 +437,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1028.0,
+						"translation.y": 398.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "index.html",
+					"file": "learn.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3303,
+						"buffer_size": 5613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2270,
-								2270
+								5595,
+								5304
 							]
 						],
 						"settings":
@@ -425,10 +466,126 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 268.0,
+						"translation.y": 1062.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "prepare.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11900,
+								11900
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5924.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "recognize.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14757,
+								14757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5601.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "actions.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31510,
+								31510
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7624.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3903,
+								3903
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 569.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
